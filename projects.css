@@ -1,0 +1,64 @@
+.photos-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+* {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+background: linear-gradient(135deg, #E0FFFF 0%, #FF0000 100%);
+  background-attachment: fixed;;
+
+}
+
+.hosp1 {
+  height: 400px;
+  width: 700px;
+}
+.hosp2 {
+  height: 400px;
+  width: 600px;
+}
+.hosp3 {
+  height: 400px;
+  width: 600px;
+}
+
+@media (max-width: 1500px) {
+  .photos-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.photos-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 100px;
+}
+
+.lux1 {
+  width: 600px;
+  height: 400px;
+}
+.lux2 {
+  height: 400px;
+  width: 600px;
+}
+.lux3 {
+  height: 400px;
+  width: 600px;
+}
+.lux4 {
+  height: 400px;
+  width: 600px;
+}
+@media (max-width: 1500px) {
+  .photos-4 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+p{
+font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ab526b;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, filter 0.3s ease, background-color 0.3s ease;
+}
+
+.download-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.download-btn:hover {
+  background-color: #FE4365;
+  transform: translateY(-5px);
+  filter: drop-shadow(0px 10px 15px rgba(254, 67, 101, 0.4));
+}

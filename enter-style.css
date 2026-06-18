@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Geometric Register Box */
+.register-container {
+  background: #252525;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border: 3px solid #ab526b;
+  box-shadow: 8px 8px 0px #000;
+  position: relative;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-header h2 {
+  color: #ab526b;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.register-header p {
+  color: #7f807b;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  background: #1a1a1a;
+  border: 2px solid #7f807b;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #ab526b;
+}
+
+/* Brutalist Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: #ab526b;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #000;
+  margin-top: 10px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.submit-btn:hover {
+  background: #fe4365;
+}
+
+.submit-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+/* Back Link */
+.back-home {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.back-home a {
+  color: #7f807b;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.back-home a:hover {
+  color: #ab526b;
+}

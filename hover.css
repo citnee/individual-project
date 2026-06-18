@@ -1,0 +1,24 @@
+.cube {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.pixel-corner {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.cube:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 0.4));
+}
+
+.pixel-corner:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 0.3));
+}
+
+
+
+
+
+.sphere-link:hover .sphere {
+  transform: rotate(360deg);
+}
